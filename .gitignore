@@ -128,3 +128,11 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+.idea
+node_js_test
+js_basics/node_modules/
+js_basics_test
+node_js
+
+
+
