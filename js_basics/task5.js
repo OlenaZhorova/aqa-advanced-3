@@ -1,8 +1,8 @@
 //Обчислення площі та об'єму
 //5.1
-const π = Math.PI
+const pi = Math.PI
 const radius = 5
-console.log(π * radius^2)
+console.log(pi * radius^2)
 
 //5.2
 const length = 10
@@ -12,5 +12,5 @@ console.log(length * width)
 //5.3
 const height = 25
 const radius2 = 10
-console.log(π * radius2^2 * height)
+console.log(pi * Math.pow(radius2,2) * height)
 
