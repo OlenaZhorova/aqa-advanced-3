@@ -128,3 +128,11 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+.idea
+aqa-advanced-3/node_js_test/
+js_basics/node_modules/
+aqa-advanced-3/js_basics_test/
+aqa-advanced-3/node_js/
+
+
+
