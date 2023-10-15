@@ -2,7 +2,6 @@
 //Використовуючи цикл for
 const number = 3
 for(let i = 1; i <= 10; i++){
-    if (i * number <= 30)
     console.log(i + "*" + number + "=" + i * number)
 }
 
