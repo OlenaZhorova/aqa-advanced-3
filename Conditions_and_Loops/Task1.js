@@ -14,22 +14,3 @@ else if (averageGrade <= 100){
 else {
      console.log("Введіть корректну оцінку")
 }
-
-
-// switch (true) {
-//     case averageGrade <= 59:
-//         console.log("Незадовільно")
-//         break
-//     case averageGrade <= 70:
-//         console.log("Задовільно")
-//         break
-//     case averageGrade <= 80:
-//         console.log("Добре")
-//         break
-//     case averageGrade <= 90:
-//         console.log("Дуже добре")
-//         break
-//     case averageGrade <= 100:
-//         console.log("Відмінно")
-//         break
-// }
