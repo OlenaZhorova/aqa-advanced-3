@@ -1,17 +1,14 @@
 // Завдання 3: Рекурсивна функція
 
-function newNumber(num){
+function countNumDown(num){
     console.log(num)
-    return function(){
-        while(num > 0){
-            num--
-            console.log(`num: ${num}`)
+        if(num > 0){
+            countNumDown(num -1)
         }
     }
-}
 
-const newNumber2 = newNumber(5)
-newNumber2()
+countNumDown(5)
+
 
 
 
