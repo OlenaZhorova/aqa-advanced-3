@@ -3,10 +3,10 @@ function isAdult(age){
     return age >= 18
 }
 
-const Parameter1 = isAdult(15)
-const Parameter2 = isAdult(25)
-console.log(Parameter1)
-console.log(Parameter2)
+const parameter1 = isAdult(15)
+const parameter2 = isAdult(25)
+console.log(parameter1)
+console.log(parameter2)
 
 
 // Second way

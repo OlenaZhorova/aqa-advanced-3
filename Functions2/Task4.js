@@ -1,14 +1,12 @@
 // Завдання 4: Обробка помилок за допомогою try-catch-finally
 
 function divide(numerator, denominator) {
-    const number = numerator / denominator
-    console.log("Result of divide:", number)
-    if(denominator === 0) {
-        throw new Error("Ділення на нуль неможливе")
+    console.log("Result of divide:", numerator / denominator)
+    if(denominator === 0 || denominator === NaN ) {
+        throw new Error("Ділення на нуль або текст неможливе")
     }
     return numerator / denominator
 }
-
 try {
     console.log(divide(4,0))
     console.log(divide(4,2))
