@@ -6,8 +6,7 @@
 const url1 = "https://jsonplaceholder.typicode.com/todos/1"
 function fetchToDo(url1) {
     return fetch(url1)
-        .then((Response) => Response.json())
-        .then((jsonBody) => jsonBody)
+        .then((response) => response.json())
 }
 fetchToDo(url1)
         .then((body) => {
@@ -22,7 +21,6 @@ const url2 = "https://jsonplaceholder.typicode.com/users/1"
 function fetchUser(url2) {
     return fetch(url2)
         .then((response) => response.json())
-        .then((jsonBody) => jsonBody)
 }
 fetchUser(url2)
     .then((user) => {
